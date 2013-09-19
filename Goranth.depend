@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1378214379 source:/home/octavian/Programmierung/Goranth/main.cpp
+	<SDL2/SDL.h>
+	"tgamemanager.h"
+
+1378157080 /home/octavian/Programmierung/Goranth/tgamemanager.h
+	<SDL2/SDL.h>
+	"src/generic/Macros.h"
+	"tspielfeld.h"
+
+1377370849 /home/octavian/Programmierung/Goranth/src/generic/Macros.h
+
+1378649425 /home/octavian/Programmierung/Goranth/tspielfeld.h
+	<list>
+	"src/generic/Macros.h"
+	"tworld.h"
+	"tvec.h"
+
+1378648793 /home/octavian/Programmierung/Goranth/tworld.h
+	<memory>
+	<set>
+	"src/generic/Interfaces.h"
+	"tbuilding.h"
+	"tvec.h"
+
+1378648747 /home/octavian/Programmierung/Goranth/src/generic/Interfaces.h
+	<SDL2/SDL.h>
+
+1378649306 /home/octavian/Programmierung/Goranth/tbuilding.h
+	<vector>
+	<memory>
+	"src/generic/Interfaces.h"
+	"tbuildingmanager.h"
+	"tvec.h"
+
+1379621070 /home/octavian/Programmierung/Goranth/tbuildingmanager.h
+	<list>
+	<vector>
+	"src/generic/Macros.h"
+	"src/generic/Enums.h"
+	"src/generic/Structs.h"
+	"src/image/tartmanager.h"
+
+1378156375 /home/octavian/Programmierung/Goranth/src/generic/Enums.h
+
+1378649387 /home/octavian/Programmierung/Goranth/src/generic/Structs.h
+	<SDL2/SDL.h>
+	<memory>
+	"Enums.h"
+	"Interfaces.h"
+
+1378157100 /home/octavian/Programmierung/Goranth/src/image/tartmanager.h
+	<SDL2/SDL.h>
+	"timage.h"
+	"src/generic/Macros.h"
+	"src/generic/Enums.h"
+
+1377447533 /home/octavian/Programmierung/Goranth/src/image/timage.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1378649373 /home/octavian/Programmierung/Goranth/tvec.h
+	<math.h>
+	"src/generic/Interfaces.h"
+	"tvecmanager.h"
+	"tworld.h"
+
+1379621076 /home/octavian/Programmierung/Goranth/tvecmanager.h
+	<memory>
+	<vector>
+	"src/generic/Macros.h"
+	"src/generic/Enums.h"
+	"src/generic/Structs.h"
+	"src/image/tartmanager.h"
+
+1378155587 source:/home/octavian/Programmierung/Goranth/src/image/tartmanager.cpp
+	"tartmanager.h"
+
+1377469729 source:/home/octavian/Programmierung/Goranth/src/image/timage.cpp
+	"timage.h"
+
+1378648892 source:/home/octavian/Programmierung/Goranth/tbuilding.cpp
+	"tbuilding.h"
+
+1379620182 source:/home/octavian/Programmierung/Goranth/tbuildingmanager.cpp
+	"tbuildingmanager.h"
+
+1377472541 source:/home/octavian/Programmierung/Goranth/tgamemanager.cpp
+	"tgamemanager.h"
+
+1378649503 source:/home/octavian/Programmierung/Goranth/tspielfeld.cpp
+	"tspielfeld.h"
+
+1378649371 source:/home/octavian/Programmierung/Goranth/tvec.cpp
+	"tvec.h"
+
+1378648783 source:/home/octavian/Programmierung/Goranth/tworld.cpp
+	"tworld.h"
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Goranth" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Goranth" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Goranth" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="." />
+		</Compiler>
+		<Linker>
+			<Add library="SDL2" />
+			<Add library="SDL2_image" />
+			<Add directory="/usr/lib" />
+		</Linker>
+		<Unit filename="Goranth.cbp" />
+		<Unit filename="Goranth.layout" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="image/Icon.png" />
+		<Unit filename="image/farm.png" />
+		<Unit filename="image/feld.png" />
+		<Unit filename="image/feld.xcf" />
+		<Unit filename="image/pubdlcnt.php.png" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/generic/Enums.h" />
+		<Unit filename="src/generic/Interfaces.h" />
+		<Unit filename="src/generic/Macros.h" />
+		<Unit filename="src/generic/Structs.h" />
+		<Unit filename="src/image/tartmanager.cpp" />
+		<Unit filename="src/image/tartmanager.h" />
+		<Unit filename="src/image/timage.cpp" />
+		<Unit filename="src/image/timage.h" />
+		<Unit filename="tbuilding.cpp" />
+		<Unit filename="tbuilding.h" />
+		<Unit filename="tbuildingfeld.h" />
+		<Unit filename="tbuildingmanager.cpp" />
+		<Unit filename="tbuildingmanager.h" />
+		<Unit filename="test.txt" />
+		<Unit filename="tfarmer.cpp" />
+		<Unit filename="tfarmer.h" />
+		<Unit filename="tgamemanager.cpp" />
+		<Unit filename="tgamemanager.h" />
+		<Unit filename="tspielfeld.cpp" />
+		<Unit filename="tspielfeld.h" />
+		<Unit filename="tvec.cpp" />
+		<Unit filename="tvec.h" />
+		<Unit filename="tvecmanager.cpp" />
+		<Unit filename="tvecmanager.h" />
+		<Unit filename="tworld.cpp" />
+		<Unit filename="tworld.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1">
+				<lib name="sdl2" />
+				<lib name="SDL2_image" />
+			</lib_finder>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
